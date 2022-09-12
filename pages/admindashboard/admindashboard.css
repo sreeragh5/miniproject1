@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    background-color: #DADADA;
+    display: flex;
+    flex-direction: column;
+}
+
+.header2 {
+    background-color: #F1F1F1;
+    padding: 15px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-text-and-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-text {
+    font-family: "Noto Sans",sans-serif;
+    font-size: 20px;
+    color: #1F3F49;
+}
+
+a.header-text {
+    text-decoration: none;
+}
+
+.right-links {
+    display: flex;
+    gap: 30px;
+}
+
+a.logout,a.contact {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Noto Sans",sans-serif;
+    color: #1F3F49;
+}
+
+img.logo {
+    width: 40px;
+    height: auto;
+}
+
+.sidebar {
+    background-color: #23282D;
+    width: 200px;
+    padding: 10px 18px;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+a.dashboard,a.Exam,a.Question,a.Subject {
+    text-decoration: none;
+    color: white;
+    font-family: "Saira",sans-serif;
+    padding-left: 10px;
+}
+a.dashboard:active,a.Exam:active,a.Question:active,a.Subject:focus {
+    text-decoration: none;
+    color: rgb(205, 19, 19);
+    font-family: "Saira",sans-serif;
+    padding-left: 10px;
+}
+
+
+i{
+    filter: invert(100%);
+}
+
+.footer {
+    display: flex;
+    background-color: #163e66;
+    padding: 10px;
+    color: aliceblue;
+    justify-content: center;
+    font-family: "Roboto Slab",serif;
+    font-size: 12px;
+}
+
+a.logo-attribute {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Roboto Slab",serif;
+    font-style: italic;
+}

@@ -1,0 +1,206 @@
+body {
+    margin: 0px;
+    background-color: #FAFAFB;
+    display: flex;
+    flex-direction: column;
+}
+
+i {
+    filter: invert(100%) !important;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+}
+
+.header3 {
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text-and-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-text {
+    font-family: "Noto Sans",sans-serif;
+    font-size: 20px;
+    color: #1F3F49;
+}
+
+a.header-text {
+    text-decoration: none;
+}
+
+.right-links {
+    display: flex;
+    gap: 30px;
+}
+
+a.about {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Noto Sans",sans-serif;
+    color: #1F3F49;
+}
+
+img.logo {
+    width: 40px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Convergence",sans-serif;
+    font-size: 40px;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+.applicant,.business {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.applicant {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: dotted black;
+    height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url(C:\Users\sreeragh.s\OneDrive\Desktop\job lookup system\job\public\images\landing-page-img1.jpg);
+}
+
+.business {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url(C:\Users\sreeragh.s\OneDrive\Desktop\job lookup system\job\public\images\landing-page-img2.jpg);
+}
+
+
+.applicant-text,.business-text {
+    width: 1300px;
+}
+
+.hero-text {
+    font-family: "Zen Kaku Gothic New",sans-serif;
+    font-size: 20px;
+}
+
+.applicant-button,.business-button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+} 
+ 
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn19 {
+    background-image: linear-gradient(
+      to right,
+      #f5ce62,
+      #e43603,
+      #fa7199,
+      #e85a19
+    );
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+  }
+
+  .bn632-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 65px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn24 {
+    background-image: linear-gradient(
+        to right,
+        #6253e1,
+        #852d91,
+        #a3a1ff,
+        #f24645
+      );
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  }
+
+  .footer {
+    display: flex;
+    background-color: #f1dfd3;
+    padding: 10px;
+    justify-content: center;
+    font-family: "Roboto Slab",serif;
+    font-size: 12px;
+    color: #b88d62;
+}
+
+a.logo-attribute {
+  text-decoration: none;
+  color: #b88d62;
+  font-family: "Roboto Slab",serif;
+  font-style: italic;
+}

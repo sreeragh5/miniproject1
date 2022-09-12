@@ -1,0 +1,55 @@
+.Add_Subject{
+  background-color:rgb(43, 175, 14);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  width: 10%;
+  height: 4%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border:none;
+  border-radius:3px;
+  margin-left: 220px;
+  margin-top: 200px !important;
+  
+
+}
+.Subject-List{
+    text-align:start;
+    margin-top: -820px;
+    margin-left: 220px;
+}
+.Enter-Subject{
+    margin-left: 220px;
+  margin-top:130px;
+
+}
+label1 {
+    width:150px !important;
+    clear:left !important;
+    text-align:right !important;
+    padding-right:10px !important;
+    padding-top: 5px !important;
+    font-weight: bold !important;
+}
+
+input1, label1 {
+    float:left !important;
+    padding-bottom:10px !important;
+}
+input1{
+    width:200px !important;
+
+}
+.add-cancel-button{
+    display: flex;
+    gap:5px !important;
+    margin-left: 170px !important;
+}
+
+.Tables-subject{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+
+}

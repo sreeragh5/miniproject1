@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300&display=swap');
+
+.login{
+    font-family: 'Montserrat';
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+    width: 500px;
+    height: minmax(100px,auto);
+    border: none;
+    padding:10px 20px;
+    background-color: whitesmoke;
+    background-image: linear-gradient(0deg,white 60%,rgb(247, 146, 247));
+    border-radius: 17px;
+    opacity: 0.91;
+
+}
+.heading{
+    opacity: 1;
+    font-weight: bolder;
+    text-align: center;
+}
+.paragraph{
+    text-align: center;
+    margin-top: 10px;
+}
+.email{
+    width:450px !important;
+    margin-top: 40px !important;
+    margin-left: 25px !important;
+    border-color: black !important;
+    
+}
+
+.password{
+    width:450px !important;
+    margin-top: 40px !important;
+    margin-left: 25px !important;
+    border-color: black !important;
+    
+}
+.paragraph2{
+    text-align:left;
+    margin-top: 20px;
+    padding-left: 30px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+
+}
+.paragraph2:hover{
+    cursor: pointer !important;
+    color:brown
+}
+.signin{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    width:350px;
+    height:30px;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    background-color: rgb(60, 200, 60);
+    border:none;
+    border-radius: 10px;
+    opacity:1 !important;
+
+}
+.signin:hover{
+    background-color: rgb(63, 193, 63);
+    cursor: pointer;
+}

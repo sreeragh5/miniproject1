@@ -1,0 +1,16 @@
+.Exam-List{
+    text-align:start;
+    margin-top: -820px;
+    margin-left: 220px;
+    margin-bottom: 5px !important;
+}
+.Add-Exam{
+    position: absolute;
+    width: 10%;
+    height: 4%;
+    border:none;
+    border-radius:3px;
+    margin-left: 220px;
+    margin-top: 5px !important;
+    
+}

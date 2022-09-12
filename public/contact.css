@@ -1,0 +1,106 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    background-color: #DADADA;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    background-color: #f1f1f1;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.logo {
+    width: 30px;
+    height: auto;
+}
+
+.header-text-and-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-text {
+    font-family: "Noto Sans",sans-serif;
+    font-size: 20px;
+    color: #1F3F49;
+}
+
+a.header-text {
+    text-decoration: none;
+}
+
+.right-links {
+    display: flex;
+    gap: 30px;
+}
+
+a.logout,a.home,a.dashboard {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Noto Sans",sans-serif;
+    color: #1F3F49;
+}
+
+.body {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url(../images/contact.jpg);
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    font-family: "Convergence",sans-serif;
+    font-size: 60px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.contact {
+    display: grid;
+    grid-template: 100px / 300px 300px;
+    justify-content: center;
+    column-gap: 500px;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    height: fit-content;
+    padding: 30px;
+    width: 370px;
+    border: solid black;
+}
+
+.contact-subtext {
+    font-family: "Zen Kaku Gothic New",sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-form {
+    border: solid black;
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: "Duru Sans",sans-serif;
+    padding-bottom: 20px;
+}

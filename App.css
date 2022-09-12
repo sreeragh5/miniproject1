@@ -1,0 +1,13 @@
+.container1{
+  background-size: cover !important;
+ background: url("C:\Users\sreeragh.s\OneDrive\Desktop\job lookup system\job\public\images\vecteezy_waterfall-and-mountain-landscape-illustration_.jpg ");
+  height:100vh !important;
+  background-color: #f1ebdd !important;
+  background-size: cover !important;
+  margin-left: 0 !important;
+  margin-right: 0px !important;
+  padding: 0 !important;
+  justify-content: center !important;
+  overflow:auto !important;
+  padding-right: 20px !important;
+}
